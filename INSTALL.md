@@ -9,8 +9,11 @@
 
 2. Create a 'build' folder if it doens't exist
    `mkdir build && cd build`
+ 
+3. Create build files
+   `cmake ..`
 
-3. Build and install
+4. Build and install
    `make && sudo make install`
 
 ### Manually
