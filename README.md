@@ -1,8 +1,8 @@
-#PERMUTE
+# PERMUTE
 
 A tool to get a random random-block-permutation of a string
 
-##Usage
+## Usage
 
 ```
 Usage: permute [OPTION]... [TEXT]...
@@ -16,17 +16,17 @@ With no TEXT or when TEXT is -, read standard input.
       --version		Show version information
 ```
 
-##Algorithm
+## Algorithm
 
 Basically, it splits a string into a sequence of blocks, each with a random length distribution centered on a mean (default: 4). It then shuffles those blocks randomly. It can take in a seed if it needs to get the same permutation multiple times.
 
-##Installing
+## Installing
 
-See [Installing][INSTALL.md]
+See [Installing](INSTALL.md)
 
-##License
+## License
 
 This software is licensed under the MIT Software license
 
-See [License][LICENSE.md]
+See [License](LICENSE.md)
 
