@@ -1,8 +1,8 @@
-#Installing
+# Installing
 
-##From source
+## From source
 
-###Cmake
+### Cmake
 
 1. Get the source
    `git clone https://github.com/JuhaJGam3R/permute.git`
@@ -13,11 +13,11 @@
 3. Build and install
    `make && sudo make install`
 
-###Manually
+### Manually
 
 Please don't
 
-##Binaries?
+## Binaries?
 
 I don't offer binaries
 
