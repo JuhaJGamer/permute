@@ -1,0 +1,2 @@
+#define VERSION_MAJOR @permute_VERSION_MAJOR@
+#define VERSION_MINOR @permute_VERSION_MINOR@
