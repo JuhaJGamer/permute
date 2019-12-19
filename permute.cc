@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     for(int i = 1; i < argc; i++) {
         if(argv[i][0] == '-') {
             if(strcmp(argv[i], "--help") == 0) {
-                std::cout << "Usage: permute [OPTION]... [TEXT]...\nRandomly permutes a string of characters\n\nWith no TEXT or when TEXT is -, read standard input.\n\n  -b, --block\t\tSet average block length (default: 4)\n      --help\t\tShow this help.\n  -s, --seed\t\tSet random seed\n    --version\t\tShow version information\n";
+                std::cout << "Usage: permute [OPTION]... [TEXT]...\nRandomly permutes a string of characters\n\nWith no TEXT or when TEXT is -, read standard input.\n\n  -b, --block\t\tSet average block length (default: 4)\n      --help\t\tShow this help.\n  -s, --seed\t\tSet random seed\n      --version\t\tShow version information\n";
                 exit(0);
             }
             else if(strcmp(argv[i], "--version") == 0) {
